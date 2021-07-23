@@ -1,0 +1,14 @@
+{
+  "name": "crdm",
+  "version": "1.0.0",
+  "description": "CDRM ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Tobias Williams",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
