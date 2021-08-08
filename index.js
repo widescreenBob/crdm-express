@@ -6,203 +6,303 @@ const path = require('path');
 let students = [
   {
     "name": "Aomori Hahoko",
-    "number": "1"
+    "number": "1",
+    "player": false,
+    "active": true
   },
   {
     "name": "Sumi Fukushima",
-    "number": "2"
+    "number": "2",
+    "player": false,
+    "active": true
   },
   {
     "name": "Emi Hokkaido",
-    "number": "3"
+    "number": "3",
+    "player": false,
+    "active": true
   },
   {
     "name": "Yuuka Shizuoka",
-    "number": "4"
+    "number": "4",
+    "player": false,
+    "active": true
   },
   {
     "name": "Chio Murakami",
-    "number": "5"
+    "number": "5",
+    "player": false,
+    "active": true
   },
   {
     "name": "Gin Nakamura",
-    "number": "6"
+    "number": "6",
+    "player": false,
+    "active": true
   },
   {
     "name": "Yoko Endo",
-    "number": "7"
+    "number": "7",
+    "player": false,
+    "active": true
   },
   {
     "name": "Ayaka Suzuki",
-    "number": "8"
+    "number": "8",
+    "player": false,
+    "active": true
   },
   {
     "name": "Oki Yamada",
-    "number": "9"
+    "number": "9",
+    "player": false,
+    "active": true
   },
   {
     "name": "Tori Sorono",
-    "number": "10"
+    "number": "10",
+    "player": false,
+    "active": true
   },
   {
     "name": "Keiko Kano",
-    "number": "11"
+    "number": "11",
+    "player": false,
+    "active": true
   },
   {
     "name": "Yumi Kuji",
-    "number": "12"
+    "number": "12",
+    "player": false,
+    "active": true
   },
   {
     "name": "Fujita Hayashi",
-    "number": "13"
+    "number": "13",
+    "player": false,
+    "active": true
   },
   {
     "name": "Aoi Ito",
-    "number": "14"
+    "number": "14",
+    "player": false,
+    "active": true
   },
   {
     "name": "Fu Inoue",
-    "number": "15"
+    "number": "15",
+    "player": false,
+    "active": true
   },
   {
     "name": "Miyoko Higa",
-    "number": "16"
+    "number": "16",
+    "player": false,
+    "active": true
   },
   {
     "name": "Ochi Oshiro",
-    "number": "17"
+    "number": "17",
+    "player": false,
+    "active": true
   },
   {
     "name": "Eriko Maeda",
-    "number": "18"
+    "number": "18",
+    "player": false,
+    "active": true
   },
   {
     "name": "Moe Chinatsu",
-    "number": "19"
+    "number": "19",
+    "player": false,
+    "active": true
   },
   {
     "name": "Aoki Oshiro",
-    "number": "20"
+    "number": "20",
+    "player": false,
+    "active": true
   },
   {
     "name": "Kumiko Abe",
-    "number": "21"
+    "number": "21",
+    "player": false,
+    "active": true
   },
   {
     "name": "Noko Sasaki",
-    "number": "22"
+    "number": "22",
+    "player": false,
+    "active": true
   },
   {
     "name": "Ami Kikushi",
-    "number": "23"
+    "number": "23",
+    "player": false,
+    "active": true
   },
   {
     "name": "Sato Ituo",
-    "number": "24"
+    "number": "24",
+    "player": false,
+    "active": true
   },
   {
     "name": "Rio Namamura",
-    "number": "25"
+    "number": "25",
+    "player": false,
+    "active": true
   },
   {
     "name": "Hara Watashi",
-    "number": "26"
+    "number": "26",
+    "player": false,
+    "active": true
   },
   {
     "name": "Shodiu Nobunga",
-    "number": "27"
+    "number": "27",
+    "player": false,
+    "active": true
   },
   {
     "name": "Hakujo Saitou",
-    "number": "28"
+    "number": "28",
+    "player": false,
+    "active": true
   },
   {
     "name": "Yukari Kuji",
-    "number": "29"
+    "number": "29",
+    "player": false,
+    "active": true
   },
   {
     "name": "Takumi Takahashi",
-    "number": "30"
+    "number": "30",
+    "player": false,
+    "active": true
   },
   {
     "name": "Mark Stevens",
-    "number": "31"
+    "number": "31",
+    "player": false,
+    "active": true
   },
   {
     "name": "Tanaka Fuji",
-    "number": "32"
+    "number": "32",
+    "player": false,
+    "active": true
   },
   {
     "name": "Hiro Yamamoto",
-    "number": "33"
+    "number": "33",
+    "player": false,
+    "active": true
   },
   {
     "name": "Kato Odisu",
-    "number": "34"
+    "number": "34",
+    "player": false,
+    "active": true
   },
   {
     "name": "Ono Hake",
-    "number": "35"
+    "number": "35",
+    "player": false,
+    "active": true
   },
   {
     "name": "Kid Roko Asuma",
-    "number": "36"
+    "number": "36",
+    "player": false,
+    "active": true
   },
   {
     "name": "Eucon Hosokawa",
-    "number": "37"
+    "number": "37",
+    "player": false,
+    "active": true
   },
   {
     "name": "Enazo Ishikawa",
-    "number": "38"
+    "number": "38",
+    "player": false,
+    "active": true
   },
   {
     "name": "Endo Matsushima",
-    "number": "39"
+    "number": "39",
+    "player": false,
+    "active": true
   },
   {
     "name": "Kaku Nakajima",
-    "number": "40"
+    "number": "40",
+    "player": false,
+    "active": true
   },
   {
     "name": "Den Okimoto",
-    "number": "41"
+    "number": "41",
+    "player": false,
+    "active": true
   },
   {
     "name": "Tendo Wakayama",
-    "number": "42"
+    "number": "42",
+    "player": false,
+    "active": true
   },
   {
     "name": "Endo Yanagi",
-    "number": "43"
+    "number": "43",
+    "player": false,
+    "active": true
   },
   {
     "name": "Moro Tsushima",
-    "number": "44"
+    "number": "44",
+    "player": false,
+    "active": true
   },
   {
     "name": "Kuchii Agawa",
-    "number": "45"
+    "number": "45",
+    "player": false,
+    "active": true
   },
   {
     "name": "Kido Kawaguchi",
-    "number": "46"
+    "number": "46",
+    "player": false,
+    "active": true
   },
   {
     "name": "Matsuura Nikaido",
-    "number": "47"
+    "number": "47",
+    "player": false,
+    "active": true
   },
   {
     "name": "Hiro Tezuka",
-    "number": "48"
+    "number": "48",
+    "player": false,
+    "active": true
   },
   {
     "name": "Yukari Kuji",
-    "number": "49"
+    "number": "49",
+    "player": false,
+    "active": true
   },
   {
     "name": "Numani Tadakatsu",
-    "number": "50"
+    "number": "50",
+    "player": false,
+    "active": true
   }
 ]
 
